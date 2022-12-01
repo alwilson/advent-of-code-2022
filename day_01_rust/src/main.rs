@@ -23,8 +23,8 @@ fn solve(file: &str) {
     tot_cals.sort();
     tot_cals.reverse();
 
-    println!("Part 1 - {}: {:?}", file, tot_cals[0]);
-    println!("Part 2 - {}: {:?}", file, tot_cals[0..3].iter().sum::<u32>());
+    println!("Part 1 - {file}: {:?}", tot_cals[0]);
+    println!("Part 2 - {file}: {:?}", tot_cals[0..3].iter().sum::<u32>());
 }
 
 
