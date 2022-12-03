@@ -1,8 +1,5 @@
-use std::fs;
-
-
 fn solve(file: &str) {
-    let contents = fs::read_to_string(file).unwrap();
+    let contents = std::fs::read_to_string(file).unwrap();
 
     let mut elf_cals = vec![];
     let mut cals = vec![];
